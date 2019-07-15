@@ -1,0 +1,56 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    padding-top: 6vh;
+    background: #222;
+    color: #111
+}
+
+.txt {
+    color: #fff;
+    text-align: center;
+    font-size: 6vh
+}
+
+.board {
+    padding: 0;
+    margin: auto;
+    width: 33vh;
+    height: 33vh
+}
+
+.long,
+.button,
+.empty {
+    border: 1px solid #000;
+    font-size: 9vh;
+    margin: 0;
+    padding: 0;
+    height: 11vh;
+    width: 11vh;
+    line-height: 5vh;
+    vertical-align: middle;
+    background: #fff;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+    float: left
+}
+
+.empty {
+    background: #ccc
+}
+
+.hide {
+    display: none
+}
+
+.marked {
+    border: #f60 3px solid
+}
+
+.long {
+    width: 100%;
+    font-size: 3vh
+}
